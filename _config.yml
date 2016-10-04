@@ -85,7 +85,7 @@ author:
   bio              : "Trying to see the forest for the red-black trees."
   location         : "Davis, CA"
   email            :
-  uri              : "http://localhost:4000"
+  uri              : #"http://localhost:4000"
   bitbucket        :
   codepen          :
   dribbble         :
