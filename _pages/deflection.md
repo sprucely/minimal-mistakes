@@ -21,8 +21,9 @@ In early 2014 I got an itch to try my hand at game development. I didn't have a 
 
 This is just a placeholder for now. I'll add a little more info later.
 
-{% comment %}
 {% include gallery id="deflection_gallery" caption="Gameplay screen captures `splash`, `single`, and `archive`." %}
+
+{% comment %}
 
 ## Notable Features
 

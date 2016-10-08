@@ -1,13 +1,13 @@
 # Develop override settings
 
-url: {{ site.url }}{{ site.baseurl }}
+url: http://localhost:4000
 
 analytics:
   provider: false
 
 comments:
   disqus:
-    shortname            : "mmistakes-dev"
+    shortname            : "timberdig-dev"
 
 sass:
   style: expanded
