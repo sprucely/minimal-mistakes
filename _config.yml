@@ -59,7 +59,7 @@ twitter:
   username               : &twitter 
 facebook:
   username               : &facebook 
-  app_id                 :
+  app_id                 : "1745813465738078"
   publisher              :
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
