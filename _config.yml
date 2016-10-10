@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Timberdig"
 title_separator          : "-"
 name                     : &name "Spruce Weber-Milne"
-description              : &description "A personal landing page for all things geek."
+description              : &description "Trying to see the forest for the red-black trees"
 url                      : http://timberdig.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sprucely/timberdig"
