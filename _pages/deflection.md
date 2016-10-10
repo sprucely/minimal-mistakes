@@ -31,7 +31,7 @@ It's currently only available for [Android on Google Play](https://play.google.c
 
 ## Nerd Out
 
-For those interested in some of the technical aspects, Deflection was developed in Java using libgdx, box2d, ashley, tween engine, and a number of other libraries. It's currently not making use of in-app payments, but the infrastructure is there, and I'm keeping open the option.
+For those interested in some of the technical aspects, Deflection was developed in Java using [libgdx](https://libgdx.badlogicgames.com/), [box2d](http://box2d.org/), [ashley](https://github.com/libgdx/ashley), [universal tween engine](http://www.aurelienribon.com/blog/projects/universal-tween-engine/), and a number of other libraries. It's currently not making use of in-app payments, but the infrastructure is there, and I'm keeping open the option.
 
 The signature at the start of the game serves as an asset loading progress indicator. It consists of several splines and uses a single alpha value to determine how much of each spline to draw.
 
@@ -41,7 +41,7 @@ Glow pulsing and particle emissions are pre-scripted in choreography to the musi
  * Export to csv.
  * Merge several csv files and tweak in a spreadsheet to generate JSON syntax for "music events".
  * Create JSON file.
- * Pass JSON file through Google Flatbuffers utility to serialize events to a binary file.
+ * Pass JSON file through [Google Flatbuffers](https://google.github.io/flatbuffers/) utility to serialize events to a binary file.
 
 Flatbuffers has a steep learning curve, but it is much faster and more memory efficient than reading and interpreting JSON.
 
