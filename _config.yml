@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "profile-pic-01.png"
+  avatar           : "profile-pic-02.png"
   bio              : "Trying to see the forest for the red-black trees."
   location         : "Davis, CA"
   email            : "spruce@timberdig.com"
