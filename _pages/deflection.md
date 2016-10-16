@@ -2,6 +2,9 @@
 permalink: /deflection/
 title: "Deflection"
 excerpt: "A game of ambient flow."
+share: true
+header:
+  image: mm-deflection-feature.png
 deflection_gallery:
   - url: mm-deflection-level-eddies.png
     image_path: mm-deflection-level-eddies.png
@@ -21,7 +24,7 @@ modified: 2016-10-09T11:35:00-04:00
 
 Deflection is a visually immersive game of ambient flow in which you can try to level up in pursuit of enlightenment, or simply enjoy the moment. While leveling up gives you access to wisdom of the ages, leveling down provides somewhat more practical and earthly advice. Game play is simple; draw lines that serve as mirrors and/or lenses to direct blue sparks towards a red portal while preventing any sparks from striking a blue portal.
 
-(Humble-brag) This is my first effort at creating a game. It's just a hobby at this point. And although it took a couple years to nail it, I'm quite pleased with the result...
+(Humble-brag) This is my first effort at creating a game. It's just a hobby at this point; something I work on in my spare time. And although it took a couple years to nail it, I'm quite pleased with the result...
 
 {% include gallery id="deflection_gallery" caption="Gameplay screen captures of levels `eddies`, `windmill`, and `whirlpool`." %}
 
