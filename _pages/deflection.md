@@ -28,7 +28,7 @@ Deflection is a visually immersive game of ambient flow in which you can try to 
 
 {% include gallery id="deflection_gallery" caption="Gameplay screen captures of levels `eddies`, `windmill`, and `whirlpool`." %}
 
-It's currently only available for Android. If there's demand, it would not be too much effort for me to port it to iOS. But I have a number of other game ideas I'm eager to get at. You can get it from [Google Play](https://play.google.com/store/apps/details?id=com.timberdig.deflection.android) (recommended) or you can download the APK [from here]({{ site.url }}{{ site.baseurl }}/assets/downloads/deflection-1.0.3.apk) and manually install it. 
+It's currently only available for Android. If there's demand, it would not be too much effort for me to port it to iOS. But I have a number of other game ideas I'm eager to get at. You can get it from [Google Play](https://play.google.com/store/apps/details?id=com.timberdig.deflection.android) (recommended) or you can download the APK [from here]({{ site.url }}{{ site.baseurl }}/assets/downloads/deflection.apk) and manually install it. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bi5I3TZQXlc" frameborder="0" allowfullscreen></iframe>
 
