@@ -15,7 +15,7 @@ deflection_gallery:
   - url: mm-deflection-level-whirlpool.png
     image_path: mm-deflection-level-whirlpool.png
     alt: "gameplay level whirlpool"
-modified: 2016-10-09T11:35:00-04:00
+modified: 2019-06-12T13:00:00-04:00
 ---
 
 {% include base_path %}
@@ -50,7 +50,9 @@ Flatbuffers has a steep learning curve, but it is much faster and more memory ef
 
 I originally tried to implement the glowing lines using [Box2DLights](https://github.com/libgdx/box2dlights). You can see my contribution of ChainLight to that project. Box2D turned out to be a little too heavy for my needs, so now it's used only for ray-casting. Even then, the normals obtained from it are segmented due to flat edges of fixture geometry, resulting in uneven reflections. So after each ray intersection, I have code performing an additional parametric intersection calculation for more precise normals. The result is much more beautiful. I might have been able to get similar results by using SLERP interpolations, but by the time I realized that, what I had was already working.
 
-The glow is implemented using a sprite with a one or two-pixel wide white to transparent gradient texture region. The animated flare texture region is white to transparent cloud/noise that is tesselated and repeats once in both U and V directions. I don't have the code in front of me, but to draw each segment I use something like SpriteBatch.drawSprite(), which allows passing in non-rectangular (isosceles trapezoid) sprite coordinates for curve segments. The duplicated pattern in the flare texture region allows me to offset the U and V coordinates all the way to the center of the region (where the pattern repeats) without displaying beyond the region's edge. To get the continuous flow effect, I steadily increase the V offset. When it gets past the center I subtract regionHeight/2 from the offset. drawSprite() is not the most efficient way to do this, because vertex data passed to gl gets duplicated. But it's good enough for my needs. 
+The glow is implemented using a sprite with a one or two-pixel wide white to transparent gradient texture region. The animated flare texture region is white to transparent cloud/noise that is tesselated and repeats once in both U and V directions. I don't have the code in front of me, but to draw each segment I use something like SpriteBatch.drawSprite(), which allows passing in non-rectangular (isosceles trapezoid) sprite coordinates for curve segments. The duplicated pattern in the flare texture region allows me to offset the U and V coordinates all the way to the center of the region (where the pattern repeats) without displaying beyond the region's edge. To get the continuous flow effect, I steadily increase the V offset. When it gets past the center I subtract regionHeight/2 from the offset. drawSprite() is not the most efficient way to do this, because vertex data passed to gl gets duplicated. But it's good enough for my needs.
+
+[Deflection Privacy Policy](deflection-privacy-policy)
 
 {% comment %}
 
