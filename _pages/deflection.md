@@ -52,7 +52,7 @@ I originally tried to implement the glowing lines using [Box2DLights](https://gi
 
 The glow is implemented using a sprite with a one or two-pixel wide white to transparent gradient texture region. The animated flare texture region is white to transparent cloud/noise that is tesselated and repeats once in both U and V directions. I don't have the code in front of me, but to draw each segment I use something like SpriteBatch.drawSprite(), which allows passing in non-rectangular (isosceles trapezoid) sprite coordinates for curve segments. The duplicated pattern in the flare texture region allows me to offset the U and V coordinates all the way to the center of the region (where the pattern repeats) without displaying beyond the region's edge. To get the continuous flow effect, I steadily increase the V offset. When it gets past the center I subtract regionHeight/2 from the offset. drawSprite() is not the most efficient way to do this, because vertex data passed to gl gets duplicated. But it's good enough for my needs.
 
-[Deflection Privacy Policy](deflection-privacy-policy)
+[Deflection Privacy Policy](/deflection/deflection-privacy-policy)
 
 {% comment %}
 
